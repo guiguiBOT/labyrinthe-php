@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    background-color: rgb(219, 219, 219);
+}
+
+H1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+#upBtn {
+    background-image: url(../img/up-arrow60.png);
+    background-repeat: no-repeat, repeat;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    border: 0px;
+    font-size: 0;
+}
+
+#downBtn {
+    background-image: url(../img/down-arrow60.png);
+    background-repeat: no-repeat, repeat;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    border: 0px;
+    font-size: 0;
+}
+
+#leftBtn {
+    background-image: url(../img/left-arrow60.png);
+    background-repeat: no-repeat, repeat;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    border: 0px;
+    font-size: 0;
+}
+
+#rightBtn {
+    background-image: url(../img/right-arrow60.png);
+    background-repeat: no-repeat, repeat;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    border: 0px;
+    font-size: 0;
+}
+
+#gameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+
+
+#formDirection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.cellCat {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(110, 110, 110);
+    display: flex;
+    justify-content: center;align-items: center;
+    background-image: url(../img/cat260.png);
+    background-repeat: no-repeat, repeat;
+    
+}
+
+.cellWall {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(110, 110, 110);
+    justify-content: center;align-items: center;
+    background-image: url(../img/wall60.png);
+    background-repeat: no-repeat, repeat;
+}
+
+.cellMouse {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(110, 110, 110);
+    justify-content: center;align-items: center;
+    background-image: url(../img/mouse60.png);
+    background-repeat: no-repeat, repeat;
+}
+
+.cellWin {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(110, 110, 110);
+    justify-content: center;align-items: center;
+    background-image: url(../img/blood60.png);
+    background-repeat: no-repeat, repeat;
+}
+
+.cellFog {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(110, 110, 110);
+    justify-content: center;align-items: center;
+    background-image: url(../img/fog60.png);
+    background-repeat: no-repeat, repeat;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(110, 110, 110);
+    display: flex;
+    justify-content: center;align-items: center;
+}
